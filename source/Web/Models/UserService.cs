@@ -5,6 +5,7 @@ using DotNetCore.EntityFrameworkCore;
 using DotNetCore.Objects;
 using DotNetCore.Results;
 using DotNetCore.Validation;
+using IResult = DotNetCore.Results.IResult;
 
 namespace Architecture.Application;
 

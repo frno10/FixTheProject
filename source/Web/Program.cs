@@ -1,9 +1,11 @@
 using Architecture.Application;
 using Architecture.Database;
 using DotNetCore.AspNetCore;
+using DotNetCore.EntityFrameworkCore;
 using DotNetCore.IoC;
 using DotNetCore.Logging;
 using DotNetCore.Security;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder();
 
